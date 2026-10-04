@@ -1,0 +1,539 @@
+{
+  "scope": "Independent recount of actual saved artifacts, not a new system run",
+  "passed": 133,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "Active freeze hashes match all covered files",
+      "passed": true
+    },
+    {
+      "check": "Case IDs and Gold align one-to-one",
+      "passed": true
+    },
+    {
+      "check": "Regular inputs and labels unchanged from v1",
+      "passed": true
+    },
+    {
+      "check": "Core pricing and keyword source unchanged from v1",
+      "passed": true
+    },
+    {
+      "check": "Active freeze records 18 external and 2 edited",
+      "passed": true
+    },
+    {
+      "check": "keyword: complete saved predictions",
+      "passed": true
+    },
+    {
+      "check": "keyword: freeze predates every prediction",
+      "passed": true
+    },
+    {
+      "check": "keyword: actual API calls zero",
+      "passed": true
+    },
+    {
+      "check": "keyword: no LLM evaluation claimed",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: independently counted TP",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: independently counted FP",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: independently counted FN",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: independently counted TN",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: precision",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: recall",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: f1",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: safe_price_eligible_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: safe_price_answered_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: price_range_hit_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: expected_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: matched_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: safe_case_price_coverage",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: price_range_success",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: answered_price_range_hit_rate",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: event applicable count",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: event accuracy",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: independently counted TP",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: independently counted FP",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: independently counted FN",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: independently counted TN",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: precision",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: recall",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: f1",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: safe_price_eligible_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: safe_price_answered_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: price_range_hit_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: expected_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: matched_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: safe_case_price_coverage",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: price_range_success",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: answered_price_range_hit_rate",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: event applicable count",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: event accuracy",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: independently counted TP",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: independently counted FP",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: independently counted FN",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: independently counted TN",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: precision",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: recall",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: f1",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: safe_price_eligible_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: safe_price_answered_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: price_range_hit_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: expected_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: matched_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: safe_case_price_coverage",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: price_range_success",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: answered_price_range_hit_rate",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: event applicable count",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: event accuracy",
+      "passed": true
+    },
+    {
+      "check": "keyword: per-case saved score rows align",
+      "passed": true
+    },
+    {
+      "check": "keyword: review outputs withhold both price and trace",
+      "passed": true
+    },
+    {
+      "check": "keyword: report summary has correct frozen version",
+      "passed": true
+    },
+    {
+      "check": "original_baseline: complete saved predictions",
+      "passed": true
+    },
+    {
+      "check": "original_baseline: freeze predates every prediction",
+      "passed": true
+    },
+    {
+      "check": "original_baseline: actual API calls zero",
+      "passed": true
+    },
+    {
+      "check": "original_baseline: no LLM evaluation claimed",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: independently counted TP",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: independently counted FP",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: independently counted FN",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: independently counted TN",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: precision",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: recall",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: f1",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: safe_price_eligible_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: safe_price_answered_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: price_range_hit_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: expected_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: matched_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: safe_case_price_coverage",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: price_range_success",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: answered_price_range_hit_rate",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: event applicable count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: event accuracy",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: independently counted TP",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: independently counted FP",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: independently counted FN",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: independently counted TN",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: precision",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: recall",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: f1",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: safe_price_eligible_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: safe_price_answered_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: price_range_hit_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: expected_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: matched_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: safe_case_price_coverage",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: price_range_success",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: answered_price_range_hit_rate",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: event applicable count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: event accuracy",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: independently counted TP",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: independently counted FP",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: independently counted FN",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: independently counted TN",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: precision",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: recall",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: f1",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: safe_price_eligible_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: safe_price_answered_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: price_range_hit_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: expected_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: matched_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: safe_case_price_coverage",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: price_range_success",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: answered_price_range_hit_rate",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: event applicable count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: event accuracy",
+      "passed": true
+    },
+    {
+      "check": "original_baseline: per-case saved score rows align",
+      "passed": true
+    },
+    {
+      "check": "original_baseline: review outputs withhold both price and trace",
+      "passed": true
+    },
+    {
+      "check": "original_baseline: report summary has correct frozen version",
+      "passed": true
+    },
+    {
+      "check": "Full engineering/evaluator suite: 87 tests OK",
+      "passed": true
+    },
+    {
+      "check": "Fresh-copy builder actually executes successfully",
+      "passed": true
+    },
+    {
+      "check": "Fresh-copy reproduction is byte-identical: data/regular.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Fresh-copy reproduction is byte-identical: data/hard.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Fresh-copy reproduction is byte-identical: gold/regular_gold.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Fresh-copy reproduction is byte-identical: gold/hard_gold.jsonl",
+      "passed": true
+    }
+  ]
+}
