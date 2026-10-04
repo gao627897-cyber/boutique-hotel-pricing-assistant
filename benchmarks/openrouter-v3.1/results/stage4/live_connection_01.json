@@ -1,0 +1,67 @@
+{
+  "status": "recommendation",
+  "suggested_price_sgd": 150,
+  "reasons": [
+    "Python used 12/40 remaining rooms and the comparable-quote median.",
+    "Python applied the documented inventory, stay-day and event policy, then checked both price bounds.",
+    "Activity source: openrouter_event_classifier. The event is described as a small community fair serving local residents with no expected overnight visitor demand.",
+    "Ordinary clear/cloudy/rain weather has no numerical demand adjustment in this illustrative policy."
+  ],
+  "suggested_action": "Consider this rate manually after checking source comparability; the system changes no hotel prices.",
+  "must_human_review": false,
+  "review_reasons": [],
+  "guardrail_codes": [],
+  "event_classification": {
+    "impact": "low",
+    "reason": "The event is described as a small community fair serving local residents with no expected overnight visitor demand."
+  },
+  "calculation": {
+    "strategy": "hybrid",
+    "currency": "SGD",
+    "unit": "standard_room_per_night",
+    "competitor_median_sgd": "150",
+    "anchor_sgd": "150.0",
+    "scarcity_adjustment": "0",
+    "weekend_adjustment": "0",
+    "event_adjustment": "0",
+    "weather_adjustment": "0",
+    "candidate_sgd": "150.0",
+    "rounding": "nearest_SGD_1_HALF_UP"
+  },
+  "audit": {
+    "run_id": "8cce1c0c-99fe-4516-a450-30562d1839c0",
+    "started_at_utc": "2026-10-02T17:17:19.456273+00:00",
+    "software_version": "0.4.0",
+    "policy_version": "demo-40rooms-v0.2",
+    "config_sha256": "3b8601b18319c35e94acf5af8a28a6ee46f821e8ac6d4dec55173f117e5931d3",
+    "input_sha256": "fed365b50fab7a0d485924d425b7278609a0bb83200572679fdb85fcd0e1a820",
+    "classifier_name": "openrouter_event_classifier",
+    "classifier_version": "openrouter-0.4:8fa6c34e2ef6",
+    "system_mode": "llm",
+    "pricing_strategy": "hybrid",
+    "classifier_invoked": true,
+    "api_called": true,
+    "api_calls": 1,
+    "classification_metadata": {
+      "provider": "openrouter",
+      "requested_model": "google/gemini-3.1-flash-lite",
+      "prompt_sha256": "8fa6c34e2ef67fb232e8e8a46f50346424479688e1dfbadbfefbd6333c07b4a1",
+      "transport_kind": "actual_https_request",
+      "automatic_retries": 0,
+      "usage": {
+        "prompt_tokens": 614,
+        "completion_tokens": 27,
+        "total_tokens": 641
+      },
+      "provider_reported_cost_usd": 0.000194,
+      "estimated_cost_usd": 0.000194,
+      "request_elapsed_ms": 5425.771,
+      "response_id": "gen-1790961443-fDVVwuiJnQkasVNZV0iZ",
+      "returned_model": "google/gemini-3.1-flash-lite",
+      "model_reply": "{\"impact\":\"low\",\"reason\":\"The event is described as a small community fair serving local residents with no expected overnight visitor demand.\"}",
+      "model_reply_truncated": false
+    },
+    "source_type": "synthetic",
+    "elapsed_ms": 5429.973
+  }
+}

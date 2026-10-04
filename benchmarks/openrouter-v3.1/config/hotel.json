@@ -1,0 +1,22 @@
+{
+  "policy_version": "demo-40rooms-v0.2",
+  "total_rooms": 40,
+  "base_price_sgd": 150,
+  "floor_sgd": 80,
+  "ceiling_sgd": 300,
+  "min_competitors": 3,
+  "competitor_min_sgd": 40,
+  "competitor_max_sgd": 600,
+  "max_competitor_ratio": 1.5,
+  "max_horizon_days": 90,
+  "anchor_base_weight": 0.5,
+  "scarcity_rooms_threshold": 10,
+  "scarcity_uplift": 0.10,
+  "abundant_remaining_ratio": 0.60,
+  "abundant_discount": 0.05,
+  "weekend_uplift": 0.05,
+  "event_medium_uplift": 0.05,
+  "event_high_uplift": 0.15,
+  "conflict_low_market_ratio": 0.70,
+  "conflict_high_market_ratio": 1.40
+}
