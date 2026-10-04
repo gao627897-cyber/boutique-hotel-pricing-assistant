@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+results/local/
+# Personal operator translation; the academic submission uses English docs.
+QUICKSTART_ZH.md
