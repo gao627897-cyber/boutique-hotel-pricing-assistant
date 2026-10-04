@@ -1,0 +1,43 @@
+{
+  "benchmark_version": "external-challenges-v2",
+  "evaluator_version": "eval-0.4",
+  "frozen_at_utc": "2026-10-02T15:59:48.311551+00:00",
+  "case_counts": {
+    "regular": 200,
+    "hard": 20
+  },
+  "majority_baseline_label": "low",
+  "majority_baseline_basis": "Predeclared regular-generator design: low is the largest assigned class (80/200); not chosen after results.",
+  "independent_holdout_status": "externally_authored_subset_user_reported; blind_holdout_not_verified",
+  "independent_case_count": 18,
+  "independence_definition": "External test content unchanged by development assistant; authorship is user-reported, not independently verified or expert-adjudicated.",
+  "modified_external_case_count": 2,
+  "label_status": "hard_labels_owner_approved_and_frozen_before_first_external_case_run",
+  "not_market_truth": true,
+  "files": {
+    "data/regular.jsonl": "b14aebf7531866f7e98b31b92ed02a7113cc97ed64c43593a75d25bdea35277f",
+    "data/hard.jsonl": "304fff743183bfe8178d228aae9b19a6c03ad5b51e4a28cb1fb0c870b2b783fc",
+    "gold/regular_gold.jsonl": "0ef155ed478432732d02cc97c322e39dce6fe976443393456acef2f72a7ffa50",
+    "gold/hard_gold.jsonl": "d7a632850feb7d20fdaa7899ab92429e61d73e0e9f473576b8d88ac70beea4fe",
+    "gold/LABEL_GUIDE.md": "1bf46b45c9bc8782f67ed0ffbf8b3ac40fe3e3e49a0a112049807ddb825836e1",
+    "config/hotel.json": "0c122a9539ac01216beb4ba4b4959f60cb84682a98f71c50b96ec740a9a64b76",
+    "tools/build_benchmark.py": "db2421d49d76a1b783596f3a4ca883d8f29e2e9e66dbce4b1c7da13d20672c95",
+    "tools/hard_case_design.py": "3cd0b37720295125181f3456adf45f07fd15653f5c1ec32f341d5ffaf5a1495a",
+    "data/source/approved_external_inputs.json": "020b85cc60bfe35847c6ea9f57fc1c9ef126613cbddfed427e7cf1b8dbddf842",
+    "gold/source/approved_external_reference.json": "bb9623aeaf48807af35eb604fd1e6d471ddac97c7eb86127616f5b9982c298b5",
+    "data/provenance.json": "8c60919cb81c85ca6673ba86b4c42256619786639f7dc1d9016814b49c47198a",
+    "data/HARD_CASE_CATALOG.md": "65a72445edaa1dd528bb584d4a9a1e1e1ae0c665dfc0d6df350f204f32d86043",
+    "hotel_pricing/__init__.py": "cdc27f35b03121c91cb003b1bd9d44366765ecdaf3cd8ff10c8264318e98f529",
+    "hotel_pricing/__main__.py": "e684de6718f6692a71f6140b51bfb1e67f2492e910fc673a645a476dcb6ab760",
+    "hotel_pricing/classifiers.py": "a46be9d5f9513e2ec05be87aa7c2f1361f8b3be81c04cc37f82d2580028528cb",
+    "hotel_pricing/cli.py": "959f0e38581995f2104f9d8f04827200187fed63029c159bb8e0dc057bf5be43",
+    "hotel_pricing/domain.py": "235f24a13a96ddd7f58930e0082725fc5346d2c64010ba922a4678ad3e125bbb",
+    "hotel_pricing/pricing.py": "778720478931593c8391233ecb17b18c43a9e7c9184c39349c2cac1befe2afdb",
+    "hotel_pricing/service.py": "491205b5774c251b386b8356d121751e251c5a01428ffde43475b3ecbc93d33e",
+    "hotel_pricing/validation.py": "07354275e2fe20d3b4aaf39e672d8f1acd06e5cfa244a1901d2fe64cdf4286ef",
+    "evaluation/__init__.py": "5c96daa7e39dc12765512fc3589500cc224260b22ee981c4f54b4a5dbb35a1df",
+    "evaluation/benchmark.py": "250054ab31121d42c03c7fb8ad0b393b14d61805fae100aba440f5f63c39ee81",
+    "evaluation/metrics.py": "8533524cf2844e275e062f75943c9e30c955088fe1892324750b18d2d880727d",
+    "evaluation/run.py": "4936b68800fc3a19538a11cb0fa4356416b44117f27f55b9d2fa5df4be581f78"
+  }
+}
