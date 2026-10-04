@@ -1,0 +1,10 @@
+{
+  "as_of_date": "2026-10-02",
+  "target_date": "2026-10-03",
+  "remaining_rooms": 8,
+  "competitor_prices_sgd": [145, 150, 155],
+  "weather": "rain",
+  "event_description": "Synthetic scenario: an international concert in Singapore on the stay date attracts many overnight visitors from abroad.",
+  "source_type": "synthetic",
+  "source_note": "Fictional activity used to exercise the policy; not an actual event-calendar claim."
+}

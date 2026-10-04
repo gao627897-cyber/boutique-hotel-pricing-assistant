@@ -1,0 +1,14 @@
+{
+  "as_of_date": "2026-10-05",
+  "competitor_prices_sgd": [
+    250,
+    260,
+    245
+  ],
+  "event_description": "Tiong Bahru Community Centre annual second-hand book and bake sale.",
+  "remaining_rooms": 25,
+  "source_note": "Synthetic challenge supplied by the project owner from another model; not verified live hotel/event data.",
+  "source_type": "synthetic",
+  "target_date": "2026-11-12",
+  "weather": "clear"
+}

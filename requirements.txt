@@ -1,0 +1,2 @@
+# Stage 2 uses only the Python standard library. Python 3.10+ is required.
+# No pip packages, API credentials or internet access are needed for stage 2.

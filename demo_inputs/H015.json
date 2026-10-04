@@ -1,0 +1,14 @@
+{
+  "as_of_date": "2026-10-02",
+  "competitor_prices_sgd": [
+    220,
+    225,
+    239
+  ],
+  "event_description": "A neighbourhood book-swap and small craft market will run from 10:00 to 16:00 near the hotel. It is expected to attract around 300 local residents, with no indication of sold-out accommodation, overseas visitors, or a multi-day programme.",
+  "remaining_rooms": 11,
+  "source_note": "Synthetic challenge supplied by the project owner from another model; not verified live hotel/event data.",
+  "source_type": "synthetic",
+  "target_date": "2026-10-25",
+  "weather": "rain"
+}

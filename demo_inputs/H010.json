@@ -1,0 +1,14 @@
+{
+  "as_of_date": "2026-10-02",
+  "competitor_prices_sgd": [
+    155,
+    150,
+    158
+  ],
+  "event_description": "No events have been identified for this date yet, as it falls well beyond the current planning horizon; no further information is available at this time.",
+  "remaining_rooms": 25,
+  "source_note": "Synthetic challenge supplied by the project owner from another model; not verified live hotel/event data.",
+  "source_type": "synthetic",
+  "target_date": "2027-02-14",
+  "weather": "unknown"
+}

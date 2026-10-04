@@ -1,0 +1,15 @@
+{
+  "as_of_date": "2026-10-02",
+  "competitor_prices_sgd": [
+    315,
+    338,
+    349,
+    362
+  ],
+  "event_description": "The three-day Harbourfront International Tech Congress will take place at Suntec during the same period. The organiser expects around 8,000 registered delegates and has listed several evening networking events.",
+  "remaining_rooms": 7,
+  "source_note": "Synthetic challenge supplied by the project owner from another model; not verified live hotel/event data.",
+  "source_type": "synthetic",
+  "target_date": "2026-11-19",
+  "weather": "clear"
+}

@@ -1,0 +1,15 @@
+{
+  "as_of_date": "2026-10-02",
+  "competitor_prices_sgd": [
+    96,
+    240,
+    178,
+    185
+  ],
+  "event_description": "A small independent art-and-craft pop-up, 'Haji Lane Maker's Corner', is running for one day on 5 Oct 2026 along a side street about 800 metres from the hotel, with an estimated 150-200 visitors expected throughout the day; one nearby budget hostel listed in the competitor set is running an unrelated promotional discount that week.",
+  "remaining_rooms": 1,
+  "source_note": "Synthetic challenge supplied by the project owner from another model; not verified live hotel/event data.",
+  "source_type": "synthetic",
+  "target_date": "2026-10-05",
+  "weather": "clear"
+}

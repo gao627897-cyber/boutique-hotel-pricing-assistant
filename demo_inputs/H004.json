@@ -1,0 +1,15 @@
+{
+  "as_of_date": "2026-10-02",
+  "competitor_prices_sgd": [
+    205,
+    198,
+    212,
+    210
+  ],
+  "event_description": "Organisers confirmed on 20 Sep 2026 that the 'Harbourfront Music & Arts Festival' originally planned for 8 Nov 2026 has been cancelled due to funding withdrawal. However, the festival's official social media account posted on 28 Sep 2026 that 'the show must go on' and urged fans to 'expect record crowds this November', without clarifying whether this refers to the same event or a different date.",
+  "remaining_rooms": 9,
+  "source_note": "Synthetic challenge supplied by the project owner from another model; not verified live hotel/event data.",
+  "source_type": "synthetic",
+  "target_date": "2026-11-08",
+  "weather": "cloudy"
+}

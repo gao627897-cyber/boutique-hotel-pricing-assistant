@@ -1,0 +1,14 @@
+{
+  "as_of_date": "2026-10-02",
+  "competitor_prices_sgd": [
+    275,
+    280,
+    295
+  ],
+  "event_description": "The Asia Retail Forum is described as attracting 20,000 attendees at a nearby convention venue, with limited room availability expected. However, the final sentence states that the event has been cancelled because of a venue issue.",
+  "remaining_rooms": 16,
+  "source_note": "Synthetic challenge supplied by the project owner from another model; not verified live hotel/event data.",
+  "source_type": "synthetic",
+  "target_date": "2026-12-03",
+  "weather": "cloudy"
+}

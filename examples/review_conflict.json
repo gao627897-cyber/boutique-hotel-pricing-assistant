@@ -1,0 +1,9 @@
+{
+  "as_of_date": "2026-10-02",
+  "target_date": "2026-10-06",
+  "remaining_rooms": 5,
+  "competitor_prices_sgd": [90, 95, 100],
+  "weather": "clear",
+  "event_description": "Synthetic scenario: a small community fair in Singapore.",
+  "source_type": "synthetic"
+}

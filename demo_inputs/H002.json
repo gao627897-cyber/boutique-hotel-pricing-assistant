@@ -1,0 +1,14 @@
+{
+  "as_of_date": "2026-10-02",
+  "competitor_prices_sgd": [
+    162,
+    158,
+    165
+  ],
+  "event_description": "A large motorsport exhibition, the fictional 'Kuala Lumpur Speed Carnival 2026', is scheduled for 29-31 Oct 2026 at the Sepang International Circuit in Malaysia, approximately 350 km from the hotel's Singapore location; no related satellite activities in Singapore have been reported.",
+  "remaining_rooms": 20,
+  "source_note": "Synthetic challenge supplied by the project owner from another model; not verified live hotel/event data.",
+  "source_type": "synthetic",
+  "target_date": "2026-10-30",
+  "weather": "rain"
+}

@@ -1,0 +1,9 @@
+{
+  "as_of_date": "2026-10-02",
+  "target_date": "2026-10-06",
+  "remaining_rooms": 12,
+  "competitor_prices_sgd": [145, 150, 155],
+  "weather": "clear",
+  "event_description": "Synthetic scenario: an unconfirmed rumour says a large gathering might happen nearby.",
+  "source_type": "synthetic"
+}

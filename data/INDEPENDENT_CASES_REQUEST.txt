@@ -1,0 +1,8 @@
+Historical eight-case authoring suggestion: superseded.
+
+The project owner supplied 31 challenges from three models and approved a
+deduplicated set of twenty. The course did not require eight extra cases.
+The active set is H001-H020; see HARD_CASE_CATALOG.md and provenance.json.
+Eighteen retain external test content; two have approved isolation edits.
+Exact source model names/prompts are unavailable; blinding is not verified.
+No additional external cases are pending for stage 3.

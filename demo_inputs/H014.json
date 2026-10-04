@@ -1,0 +1,14 @@
+{
+  "as_of_date": "2026-10-02",
+  "competitor_prices_sgd": [
+    238,
+    255,
+    269
+  ],
+  "event_description": "The Orchid Lane Gallery Weekend, originally planned for 16–18 October and around 2 km from the hotel, was officially cancelled on 8 October. No replacement event has been announced.",
+  "remaining_rooms": 18,
+  "source_note": "Synthetic challenge supplied by the project owner from another model; not verified live hotel/event data.",
+  "source_type": "synthetic",
+  "target_date": "2026-10-16",
+  "weather": "cloudy"
+}

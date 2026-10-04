@@ -1,0 +1,14 @@
+{
+  "as_of_date": "2026-10-02",
+  "competitor_prices_sgd": [
+    175,
+    180,
+    172
+  ],
+  "event_description": "The 'Singapore Night Harvest Food Festival' will be held over 10-12 Oct 2026 at Clarke Quay, roughly 1.2 km from the hotel, with no scheduled activities, extensions, or related programming after 12 Oct 2026.",
+  "remaining_rooms": 15,
+  "source_note": "Synthetic challenge supplied by the project owner from another model; not verified live hotel/event data.",
+  "source_type": "synthetic",
+  "target_date": "2026-10-25",
+  "weather": "clear"
+}

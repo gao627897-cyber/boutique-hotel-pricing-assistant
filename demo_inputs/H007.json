@@ -1,0 +1,15 @@
+{
+  "as_of_date": "2026-10-02",
+  "competitor_prices_sgd": [
+    175,
+    0,
+    -50,
+    182
+  ],
+  "event_description": "No notable events, closures, or demand drivers have been identified near the hotel for this date; typical weekday patterns are expected.",
+  "remaining_rooms": 14,
+  "source_note": "Synthetic challenge supplied by the project owner from another model; not verified live hotel/event data.",
+  "source_type": "synthetic",
+  "target_date": "2026-11-05",
+  "weather": "cloudy"
+}

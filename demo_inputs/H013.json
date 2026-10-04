@@ -1,0 +1,14 @@
+{
+  "as_of_date": "2026-10-05",
+  "competitor_prices_sgd": [
+    160,
+    165,
+    170
+  ],
+  "event_description": "Island-wide carnival parade expecting 500k foreign tourists, but due to new tech regulations, this year's event will only be hosted purely virtually in the metaverse.",
+  "remaining_rooms": 10,
+  "source_note": "Synthetic challenge supplied by the project owner from another model; not verified live hotel/event data.",
+  "source_type": "synthetic",
+  "target_date": "2026-12-15",
+  "weather": "clear"
+}

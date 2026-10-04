@@ -1,0 +1,14 @@
+{
+  "as_of_date": "2026-10-02",
+  "competitor_prices_sgd": [
+    -40,
+    0,
+    215
+  ],
+  "event_description": "No known event is taking place. The hotel has a total inventory of 40 rooms.",
+  "remaining_rooms": 47,
+  "source_note": "Synthetic challenge supplied by the project owner from another model; not verified live hotel/event data.",
+  "source_type": "synthetic",
+  "target_date": "2026-12-18",
+  "weather": "severe"
+}

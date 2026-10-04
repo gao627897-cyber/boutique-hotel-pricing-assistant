@@ -1,0 +1,14 @@
+{
+  "as_of_date": "2026-10-02",
+  "competitor_prices_sgd": [
+    170,
+    174,
+    169
+  ],
+  "event_description": "Something may be happening nearby around that date, possibly related to a gathering, but no further details, source, or confirmation are available at this time.",
+  "remaining_rooms": 11,
+  "source_note": "Synthetic challenge supplied by the project owner from another model; not verified live hotel/event data.",
+  "source_type": "synthetic",
+  "target_date": "2026-10-20",
+  "weather": "clear"
+}

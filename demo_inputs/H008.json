@@ -1,0 +1,14 @@
+{
+  "as_of_date": "2026-10-02",
+  "competitor_prices_sgd": [
+    165,
+    170,
+    168
+  ],
+  "event_description": "No major events are reported near the hotel on this date; demand is expected to follow typical late-October weekday patterns.",
+  "remaining_rooms": 16,
+  "source_note": "Synthetic challenge supplied by the project owner from another model; not verified live hotel/event data.",
+  "source_type": "synthetic",
+  "target_date": "2026-10-28",
+  "weather": "typhoon_level_5_warning_issued_by_unofficial_source"
+}
