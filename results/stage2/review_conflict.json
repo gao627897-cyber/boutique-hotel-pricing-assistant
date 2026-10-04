@@ -1,0 +1,35 @@
+{
+  "status": "human_review",
+  "suggested_price_sgd": null,
+  "reasons": [
+    "Scarce inventory conflicts with unusually low comparable market quotes."
+  ],
+  "suggested_action": "Verify the listed issues and rerun. Do not change a rate from this output.",
+  "must_human_review": true,
+  "review_reasons": [
+    "Scarce inventory conflicts with unusually low comparable market quotes."
+  ],
+  "guardrail_codes": [
+    "SIGNAL_CONFLICT"
+  ],
+  "event_classification": null,
+  "calculation": null,
+  "audit": {
+    "run_id": "eaa6009e-608f-4b0a-b1a6-249444a846bc",
+    "started_at_utc": "2026-10-02T14:11:55.553063+00:00",
+    "software_version": "0.2.0",
+    "policy_version": "demo-40rooms-v0.2",
+    "config_sha256": "3b8601b18319c35e94acf5af8a28a6ee46f821e8ac6d4dec55173f117e5931d3",
+    "input_sha256": "2db50a3be767974eb6fa80179874bf5a47c3af2062ca4acdf88900beee3e81db",
+    "classifier_name": "keyword_baseline",
+    "classifier_version": "keywords-0.2",
+    "system_mode": "non_ai_baseline",
+    "pricing_strategy": "hybrid",
+    "classifier_invoked": false,
+    "api_called": false,
+    "api_calls": 0,
+    "classification_metadata": {},
+    "source_type": "synthetic",
+    "elapsed_ms": 0.136
+  }
+}

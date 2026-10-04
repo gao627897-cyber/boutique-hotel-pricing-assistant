@@ -1,0 +1,2720 @@
+{
+  "temporal_evidence": {
+    "valid_responses": 210,
+    "invalid_responses": 0,
+    "future_notice_count": 1
+  },
+  "scope": "Independent recount of actual saved results; zero new API calls",
+  "passed": 677,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "Current execution hashes match frozen sources",
+      "passed": true
+    },
+    {
+      "check": "220 one-to-one case/Gold identifiers",
+      "passed": true
+    },
+    {
+      "check": "Stage-3 approved data/numerical logic unchanged: data/regular.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Stage-3 approved data/numerical logic unchanged: data/hard.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Stage-3 approved data/numerical logic unchanged: gold/regular_gold.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Stage-3 approved data/numerical logic unchanged: gold/hard_gold.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Stage-3 approved data/numerical logic unchanged: config/hotel.json",
+      "passed": true
+    },
+    {
+      "check": "Stage-3 approved data/numerical logic unchanged: hotel_pricing/pricing.py",
+      "passed": true
+    },
+    {
+      "check": "Stage-3 approved data/numerical logic unchanged: hotel_pricing/validation.py",
+      "passed": true
+    },
+    {
+      "check": "Stage-3 approved data/numerical logic unchanged: hotel_pricing/classifiers.py",
+      "passed": true
+    },
+    {
+      "check": "keyword: complete saved results",
+      "passed": true
+    },
+    {
+      "check": "keyword: execution version recorded",
+      "passed": true
+    },
+    {
+      "check": "keyword: Gold freeze predates every decision",
+      "passed": true
+    },
+    {
+      "check": "keyword: report/API counts agree",
+      "passed": true
+    },
+    {
+      "check": "keyword: schema invariants checked independently",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: TP",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: FP",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: FN",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: TN",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: precision",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: recall",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: f1",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: case_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: review_rate",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: safe_price_eligible_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: safe_price_answered_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: price_range_hit_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: expected_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: matched_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: safe_case_price_coverage",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: price_range_success",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: answered_price_range_hit_rate",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: event denominator",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: event accuracy",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: TP",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: FP",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: FN",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: TN",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: precision",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: recall",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: f1",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: case_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: review_rate",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: safe_price_eligible_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: safe_price_answered_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: price_range_hit_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: expected_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: matched_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: safe_case_price_coverage",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: price_range_success",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: answered_price_range_hit_rate",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: event denominator",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: event accuracy",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: TP",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: FP",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: FN",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: TN",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: precision",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: recall",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: f1",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: case_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: review_rate",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: safe_price_eligible_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: safe_price_answered_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: price_range_hit_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: expected_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: matched_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: safe_case_price_coverage",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: price_range_success",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: answered_price_range_hit_rate",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: event denominator",
+      "passed": true
+    },
+    {
+      "check": "keyword/independent_holdout: event accuracy",
+      "passed": true
+    },
+    {
+      "check": "keyword: no model calls or fabricated LLM score",
+      "passed": true
+    },
+    {
+      "check": "original_baseline: complete saved results",
+      "passed": true
+    },
+    {
+      "check": "original_baseline: execution version recorded",
+      "passed": true
+    },
+    {
+      "check": "original_baseline: Gold freeze predates every decision",
+      "passed": true
+    },
+    {
+      "check": "original_baseline: report/API counts agree",
+      "passed": true
+    },
+    {
+      "check": "original_baseline: schema invariants checked independently",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: TP",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: FP",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: FN",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: TN",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: precision",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: recall",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: f1",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: case_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: review_rate",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: safe_price_eligible_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: safe_price_answered_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: price_range_hit_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: expected_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: matched_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: safe_case_price_coverage",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: price_range_success",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: answered_price_range_hit_rate",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: event denominator",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: event accuracy",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: TP",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: FP",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: FN",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: TN",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: precision",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: recall",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: f1",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: case_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: review_rate",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: safe_price_eligible_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: safe_price_answered_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: price_range_hit_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: expected_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: matched_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: safe_case_price_coverage",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: price_range_success",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: answered_price_range_hit_rate",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: event denominator",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: event accuracy",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: TP",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: FP",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: FN",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: TN",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: precision",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: recall",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: f1",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: case_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: review_rate",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: safe_price_eligible_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: safe_price_answered_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: price_range_hit_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: expected_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: matched_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: safe_case_price_coverage",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: price_range_success",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: answered_price_range_hit_rate",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: event denominator",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/independent_holdout: event accuracy",
+      "passed": true
+    },
+    {
+      "check": "original_baseline: no model calls or fabricated LLM score",
+      "passed": true
+    },
+    {
+      "check": "openrouter: complete saved results",
+      "passed": true
+    },
+    {
+      "check": "openrouter: execution version recorded",
+      "passed": true
+    },
+    {
+      "check": "openrouter: Gold freeze predates every decision",
+      "passed": true
+    },
+    {
+      "check": "openrouter: report/API counts agree",
+      "passed": true
+    },
+    {
+      "check": "openrouter: schema invariants checked independently",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: TP",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: FP",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: FN",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: TN",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: precision",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: recall",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: f1",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: case_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: review_rate",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: safe_price_eligible_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: safe_price_answered_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: price_range_hit_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: expected_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: matched_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: safe_case_price_coverage",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: price_range_success",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: answered_price_range_hit_rate",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: event denominator",
+      "passed": true
+    },
+    {
+      "check": "openrouter/regular: event accuracy",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: TP",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: FP",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: FN",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: TN",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: precision",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: recall",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: f1",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: case_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: review_rate",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: safe_price_eligible_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: safe_price_answered_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: price_range_hit_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: expected_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: matched_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: safe_case_price_coverage",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: price_range_success",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: answered_price_range_hit_rate",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: event denominator",
+      "passed": true
+    },
+    {
+      "check": "openrouter/hard: event accuracy",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: TP",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: FP",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: FN",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: TN",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: precision",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: recall",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: f1",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: case_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: review_rate",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: safe_price_eligible_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: safe_price_answered_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: price_range_hit_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: expected_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: matched_guardrail_code_count",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: safe_case_price_coverage",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: price_range_success",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: answered_price_range_hit_rate",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: event denominator",
+      "passed": true
+    },
+    {
+      "check": "openrouter/independent_holdout: event accuracy",
+      "passed": true
+    },
+    {
+      "check": "LLM: 210 real request attempts; ten precheck skips",
+      "passed": true
+    },
+    {
+      "check": "LLM: actual HTTPS evidence, not test doubles",
+      "passed": true
+    },
+    {
+      "check": "LLM: no retries were silently performed",
+      "passed": true
+    },
+    {
+      "check": "LLM: returned response IDs have no duplicates",
+      "passed": true
+    },
+    {
+      "check": "LLM: actual replies came from the frozen requested model",
+      "passed": true
+    },
+    {
+      "check": "LLM: prompt_tokens sum",
+      "passed": true
+    },
+    {
+      "check": "LLM: prompt_tokens missing count",
+      "passed": true
+    },
+    {
+      "check": "LLM: completion_tokens sum",
+      "passed": true
+    },
+    {
+      "check": "LLM: completion_tokens missing count",
+      "passed": true
+    },
+    {
+      "check": "LLM: total_tokens sum",
+      "passed": true
+    },
+    {
+      "check": "LLM: total_tokens missing count",
+      "passed": true
+    },
+    {
+      "check": "LLM: reported cost subtotal",
+      "passed": true
+    },
+    {
+      "check": "LLM: missing cost count",
+      "passed": true
+    },
+    {
+      "check": "LLM: real evaluation identified",
+      "passed": true
+    },
+    {
+      "check": "Real evaluation command exited successfully",
+      "passed": true
+    },
+    {
+      "check": "115 offline tests actually passed",
+      "passed": true
+    },
+    {
+      "check": "Original source archive still matches first-run hashes",
+      "passed": true
+    },
+    {
+      "check": "Regression manifest names preserved first-run parent",
+      "passed": true
+    },
+    {
+      "check": "Regression explicitly identified, not a new holdout",
+      "passed": true
+    },
+    {
+      "check": "Original inputs, Gold and policy remain unchanged: data/regular.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Original inputs, Gold and policy remain unchanged: data/hard.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Original inputs, Gold and policy remain unchanged: gold/regular_gold.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Original inputs, Gold and policy remain unchanged: gold/hard_gold.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Original inputs, Gold and policy remain unchanged: gold/LABEL_GUIDE.md",
+      "passed": true
+    },
+    {
+      "check": "Original inputs, Gold and policy remain unchanged: config/hotel.json",
+      "passed": true
+    },
+    {
+      "check": "No scoring-formula change",
+      "passed": true
+    },
+    {
+      "check": "Temporal refinement has a distinct prompt hash",
+      "passed": true
+    },
+    {
+      "check": "R001: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R001: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R002: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R002: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R003: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R003: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R004: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R004: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R005: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R005: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R006: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R006: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R007: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R007: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R008: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R008: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R009: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R009: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R010: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R010: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R011: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R011: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R012: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R012: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R013: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R013: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R014: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R014: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R015: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R015: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R016: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R016: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R017: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R017: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R018: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R018: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R019: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R019: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R020: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R020: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R021: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R021: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R022: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R022: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R023: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R023: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R024: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R024: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R025: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R025: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R026: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R026: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R027: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R027: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R028: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R028: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R029: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R029: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R030: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R030: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R031: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R031: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R032: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R032: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R033: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R033: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R034: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R034: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R035: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R035: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R036: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R036: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R037: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R037: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R038: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R038: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R039: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R039: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R040: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R040: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R041: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R041: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R042: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R042: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R043: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R043: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R044: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R044: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R045: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R045: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R046: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R046: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R047: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R047: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R048: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R048: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R049: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R049: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R050: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R050: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R051: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R051: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R052: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R052: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R053: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R053: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R054: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R054: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R055: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R055: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R056: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R056: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R057: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R057: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R058: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R058: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R059: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R059: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R060: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R060: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R061: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R061: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R062: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R062: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R063: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R063: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R064: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R064: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R065: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R065: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R066: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R066: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R067: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R067: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R068: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R068: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R069: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R069: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R070: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R070: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R071: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R071: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R072: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R072: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R073: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R073: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R074: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R074: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R075: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R075: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R076: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R076: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R077: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R077: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R078: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R078: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R079: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R079: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R080: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R080: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R081: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R081: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R082: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R082: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R083: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R083: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R084: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R084: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R085: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R085: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R086: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R086: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R087: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R087: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R088: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R088: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R089: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R089: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R090: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R090: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R091: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R091: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R092: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R092: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R093: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R093: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R094: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R094: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R095: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R095: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R096: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R096: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R097: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R097: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R098: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R098: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R099: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R099: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R100: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R100: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R101: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R101: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R102: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R102: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R103: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R103: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R104: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R104: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R105: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R105: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R106: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R106: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R107: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R107: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R108: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R108: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R109: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R109: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R110: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R110: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R111: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R111: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R112: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R112: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R113: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R113: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R114: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R114: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R115: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R115: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R116: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R116: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R117: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R117: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R118: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R118: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R119: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R119: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R120: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R120: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R121: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R121: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R122: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R122: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R123: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R123: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R124: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R124: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R125: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R125: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R126: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R126: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R127: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R127: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R128: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R128: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R129: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R129: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R130: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R130: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R131: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R131: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R132: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R132: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R133: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R133: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R134: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R134: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R135: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R135: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R136: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R136: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R137: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R137: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R138: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R138: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R139: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R139: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R140: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R140: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R141: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R141: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R142: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R142: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R143: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R143: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R144: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R144: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R145: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R145: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R146: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R146: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R147: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R147: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R148: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R148: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R149: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R149: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R150: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R150: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R151: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R151: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R152: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R152: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R153: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R153: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R154: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R154: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R155: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R155: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R156: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R156: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R157: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R157: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R158: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R158: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R159: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R159: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R160: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R160: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R161: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R161: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R162: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R162: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R163: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R163: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R164: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R164: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R165: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R165: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R166: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R166: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R167: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R167: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R168: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R168: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R169: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R169: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R170: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R170: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R171: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R171: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R172: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R172: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R173: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R173: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R174: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R174: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R175: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R175: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R176: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R176: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R177: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R177: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R178: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R178: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R179: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R179: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R180: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R180: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R181: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R181: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R182: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R182: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R183: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R183: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R184: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R184: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R185: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R185: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R186: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R186: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R187: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R187: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R188: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R188: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R189: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R189: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R190: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R190: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R191: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R191: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R192: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R192: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R193: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R193: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R194: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R194: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R195: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R195: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R196: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R196: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R197: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R197: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R198: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R198: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R199: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R199: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "R200: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "R200: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "H001: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "H001: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "H002: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "H002: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "H004: quoted notice is present in original input",
+      "passed": true
+    },
+    {
+      "check": "H004: independent date comparison",
+      "passed": true
+    },
+    {
+      "check": "H004: quoted notice is present in original input",
+      "passed": true
+    },
+    {
+      "check": "H004: independent date comparison",
+      "passed": true
+    },
+    {
+      "check": "H004: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "H004: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "H005: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "H005: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "H013: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "H013: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "H014: quoted notice is present in original input",
+      "passed": true
+    },
+    {
+      "check": "H014: independent date comparison",
+      "passed": true
+    },
+    {
+      "check": "H014: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "H014: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "H014: future knowledge withheld price and trace",
+      "passed": true
+    },
+    {
+      "check": "H015: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "H015: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "H016: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "H016: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "H017: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "H017: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "H020: Python temporal block agrees with dated evidence",
+      "passed": true
+    },
+    {
+      "check": "H020: raw model impact retained",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: unchanged baseline review",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: unchanged baseline price_range_success",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: unchanged baseline unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/regular: unchanged baseline event",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: unchanged baseline review",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: unchanged baseline price_range_success",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: unchanged baseline unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "keyword/hard: unchanged baseline event",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: unchanged baseline review",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: unchanged baseline price_range_success",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: unchanged baseline unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/regular: unchanged baseline event",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: unchanged baseline review",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: unchanged baseline price_range_success",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: unchanged baseline unsafe_price_release_count",
+      "passed": true
+    },
+    {
+      "check": "original_baseline/hard: unchanged baseline event",
+      "passed": true
+    }
+  ]
+}

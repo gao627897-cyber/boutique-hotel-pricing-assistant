@@ -1,0 +1,38 @@
+{
+  "status": "human_review",
+  "suggested_price_sgd": null,
+  "reasons": [
+    "Activity impact is uncertain; verify the event description."
+  ],
+  "suggested_action": "Verify the listed issues and rerun. Do not change a rate from this output.",
+  "must_human_review": true,
+  "review_reasons": [
+    "Activity impact is uncertain; verify the event description."
+  ],
+  "guardrail_codes": [
+    "EVENT_UNCERTAIN"
+  ],
+  "event_classification": {
+    "impact": "uncertain",
+    "reason": "Keyword baseline found an uncertainty or instruction marker; verify the supplied text."
+  },
+  "calculation": null,
+  "audit": {
+    "run_id": "1cde4bc0-3903-41fe-881f-140b281b216b",
+    "started_at_utc": "2026-10-02T14:11:55.617687+00:00",
+    "software_version": "0.2.0",
+    "policy_version": "demo-40rooms-v0.2",
+    "config_sha256": "3b8601b18319c35e94acf5af8a28a6ee46f821e8ac6d4dec55173f117e5931d3",
+    "input_sha256": "7153dc6348e0343e80e79ec4a80b8160dff38c145544e5db1a4ee18a62257168",
+    "classifier_name": "keyword_baseline",
+    "classifier_version": "keywords-0.2",
+    "system_mode": "non_ai_baseline",
+    "pricing_strategy": "hybrid",
+    "classifier_invoked": true,
+    "api_called": false,
+    "api_calls": 0,
+    "classification_metadata": {},
+    "source_type": "synthetic",
+    "elapsed_ms": 0.651
+  }
+}

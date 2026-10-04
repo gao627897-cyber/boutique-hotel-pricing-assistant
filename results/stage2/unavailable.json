@@ -1,0 +1,35 @@
+{
+  "status": "human_review",
+  "suggested_price_sgd": null,
+  "reasons": [
+    "Activity classification failed; verify the connection or retry."
+  ],
+  "suggested_action": "Verify the listed issues and rerun. Do not change a rate from this output.",
+  "must_human_review": true,
+  "review_reasons": [
+    "Activity classification failed; verify the connection or retry."
+  ],
+  "guardrail_codes": [
+    "CLASSIFIER_UNAVAILABLE"
+  ],
+  "event_classification": null,
+  "calculation": null,
+  "audit": {
+    "run_id": "98fce5c8-bcdb-4c27-bd6b-e4dcd186f72b",
+    "started_at_utc": "2026-10-02T14:11:55.650957+00:00",
+    "software_version": "0.2.0",
+    "policy_version": "demo-40rooms-v0.2",
+    "config_sha256": "3b8601b18319c35e94acf5af8a28a6ee46f821e8ac6d4dec55173f117e5931d3",
+    "input_sha256": "fed365b50fab7a0d485924d425b7278609a0bb83200572679fdb85fcd0e1a820",
+    "classifier_name": "unavailable",
+    "classifier_version": "stage2",
+    "system_mode": "unavailable",
+    "pricing_strategy": "hybrid",
+    "classifier_invoked": true,
+    "api_called": false,
+    "api_calls": 0,
+    "classification_metadata": {},
+    "source_type": "synthetic",
+    "elapsed_ms": 0.156
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "status": "human_review",
+  "suggested_price_sgd": null,
+  "reasons": [
+    "Missing required fields: weather."
+  ],
+  "suggested_action": "Verify the listed issues and rerun. Do not change a rate from this output.",
+  "must_human_review": true,
+  "review_reasons": [
+    "Missing required fields: weather."
+  ],
+  "guardrail_codes": [
+    "MISSING_FIELD"
+  ],
+  "event_classification": null,
+  "calculation": null,
+  "audit": {
+    "run_id": "01688821-bffa-4c00-983d-c4aa1d8a8ed4",
+    "started_at_utc": "2026-10-02T14:11:55.585302+00:00",
+    "software_version": "0.2.0",
+    "policy_version": "demo-40rooms-v0.2",
+    "config_sha256": "3b8601b18319c35e94acf5af8a28a6ee46f821e8ac6d4dec55173f117e5931d3",
+    "input_sha256": "cb58a5283db74aa746e6d17029c59563e5bf416a101d2107482a374821ddd142",
+    "classifier_name": "keyword_baseline",
+    "classifier_version": "keywords-0.2",
+    "system_mode": "non_ai_baseline",
+    "pricing_strategy": "hybrid",
+    "classifier_invoked": false,
+    "api_called": false,
+    "api_calls": 0,
+    "classification_metadata": {},
+    "source_type": "not_declared",
+    "elapsed_ms": 0.138
+  }
+}

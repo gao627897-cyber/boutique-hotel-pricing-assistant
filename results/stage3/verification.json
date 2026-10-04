@@ -1,0 +1,441 @@
+{
+  "stage": 3,
+  "checks_passed": 68,
+  "checks_total": 68,
+  "checks": [
+    {
+      "check": "Frozen file hash: data/regular.jsonl",
+      "passed": true,
+      "actual": "b14aebf7531866f7e98b31b92ed02a7113cc97ed64c43593a75d25bdea35277f",
+      "expected": "b14aebf7531866f7e98b31b92ed02a7113cc97ed64c43593a75d25bdea35277f"
+    },
+    {
+      "check": "Frozen file hash: data/hard.jsonl",
+      "passed": true,
+      "actual": "d7f184bc7dc85e22d700bb5149af0c34da90748ffaeb5a255d57847c60cf90bd",
+      "expected": "d7f184bc7dc85e22d700bb5149af0c34da90748ffaeb5a255d57847c60cf90bd"
+    },
+    {
+      "check": "Frozen file hash: gold/regular_gold.jsonl",
+      "passed": true,
+      "actual": "0ef155ed478432732d02cc97c322e39dce6fe976443393456acef2f72a7ffa50",
+      "expected": "0ef155ed478432732d02cc97c322e39dce6fe976443393456acef2f72a7ffa50"
+    },
+    {
+      "check": "Frozen file hash: gold/hard_gold.jsonl",
+      "passed": true,
+      "actual": "92d742271a573561f9933088bf6226faa20764ea10276495b87e158177494ab2",
+      "expected": "92d742271a573561f9933088bf6226faa20764ea10276495b87e158177494ab2"
+    },
+    {
+      "check": "Frozen file hash: gold/LABEL_GUIDE.md",
+      "passed": true,
+      "actual": "fbce27c83884a1480eeae186d6da9066c89ee21ee622a31e9efe3d2c01f25189",
+      "expected": "fbce27c83884a1480eeae186d6da9066c89ee21ee622a31e9efe3d2c01f25189"
+    },
+    {
+      "check": "Frozen file hash: config/hotel.json",
+      "passed": true,
+      "actual": "0c122a9539ac01216beb4ba4b4959f60cb84682a98f71c50b96ec740a9a64b76",
+      "expected": "0c122a9539ac01216beb4ba4b4959f60cb84682a98f71c50b96ec740a9a64b76"
+    },
+    {
+      "check": "Frozen file hash: tools/build_benchmark.py",
+      "passed": true,
+      "actual": "0a208cf9c82a2dcff5fba355f27f5648c0c3def70f3513d43d042198f1af5482",
+      "expected": "0a208cf9c82a2dcff5fba355f27f5648c0c3def70f3513d43d042198f1af5482"
+    },
+    {
+      "check": "Frozen file hash: tools/hard_case_design.py",
+      "passed": true,
+      "actual": "5271dd85e862bdd6db33d5f1bce64923efb85710f0f0024bd4e739cd937089cd",
+      "expected": "5271dd85e862bdd6db33d5f1bce64923efb85710f0f0024bd4e739cd937089cd"
+    },
+    {
+      "check": "Frozen file hash: hotel_pricing/__init__.py",
+      "passed": true,
+      "actual": "cdc27f35b03121c91cb003b1bd9d44366765ecdaf3cd8ff10c8264318e98f529",
+      "expected": "cdc27f35b03121c91cb003b1bd9d44366765ecdaf3cd8ff10c8264318e98f529"
+    },
+    {
+      "check": "Frozen file hash: hotel_pricing/__main__.py",
+      "passed": true,
+      "actual": "e684de6718f6692a71f6140b51bfb1e67f2492e910fc673a645a476dcb6ab760",
+      "expected": "e684de6718f6692a71f6140b51bfb1e67f2492e910fc673a645a476dcb6ab760"
+    },
+    {
+      "check": "Frozen file hash: hotel_pricing/classifiers.py",
+      "passed": true,
+      "actual": "a46be9d5f9513e2ec05be87aa7c2f1361f8b3be81c04cc37f82d2580028528cb",
+      "expected": "a46be9d5f9513e2ec05be87aa7c2f1361f8b3be81c04cc37f82d2580028528cb"
+    },
+    {
+      "check": "Frozen file hash: hotel_pricing/cli.py",
+      "passed": true,
+      "actual": "959f0e38581995f2104f9d8f04827200187fed63029c159bb8e0dc057bf5be43",
+      "expected": "959f0e38581995f2104f9d8f04827200187fed63029c159bb8e0dc057bf5be43"
+    },
+    {
+      "check": "Frozen file hash: hotel_pricing/domain.py",
+      "passed": true,
+      "actual": "235f24a13a96ddd7f58930e0082725fc5346d2c64010ba922a4678ad3e125bbb",
+      "expected": "235f24a13a96ddd7f58930e0082725fc5346d2c64010ba922a4678ad3e125bbb"
+    },
+    {
+      "check": "Frozen file hash: hotel_pricing/pricing.py",
+      "passed": true,
+      "actual": "778720478931593c8391233ecb17b18c43a9e7c9184c39349c2cac1befe2afdb",
+      "expected": "778720478931593c8391233ecb17b18c43a9e7c9184c39349c2cac1befe2afdb"
+    },
+    {
+      "check": "Frozen file hash: hotel_pricing/service.py",
+      "passed": true,
+      "actual": "491205b5774c251b386b8356d121751e251c5a01428ffde43475b3ecbc93d33e",
+      "expected": "491205b5774c251b386b8356d121751e251c5a01428ffde43475b3ecbc93d33e"
+    },
+    {
+      "check": "Frozen file hash: hotel_pricing/validation.py",
+      "passed": true,
+      "actual": "07354275e2fe20d3b4aaf39e672d8f1acd06e5cfa244a1901d2fe64cdf4286ef",
+      "expected": "07354275e2fe20d3b4aaf39e672d8f1acd06e5cfa244a1901d2fe64cdf4286ef"
+    },
+    {
+      "check": "Frozen file hash: evaluation/__init__.py",
+      "passed": true,
+      "actual": "5c96daa7e39dc12765512fc3589500cc224260b22ee981c4f54b4a5dbb35a1df",
+      "expected": "5c96daa7e39dc12765512fc3589500cc224260b22ee981c4f54b4a5dbb35a1df"
+    },
+    {
+      "check": "Frozen file hash: evaluation/benchmark.py",
+      "passed": true,
+      "actual": "03089d20f08f2f2776df9c71707595680e5a7f60a7a76a1c12f72ff6ac3b0b55",
+      "expected": "03089d20f08f2f2776df9c71707595680e5a7f60a7a76a1c12f72ff6ac3b0b55"
+    },
+    {
+      "check": "Frozen file hash: evaluation/metrics.py",
+      "passed": true,
+      "actual": "8533524cf2844e275e062f75943c9e30c955088fe1892324750b18d2d880727d",
+      "expected": "8533524cf2844e275e062f75943c9e30c955088fe1892324750b18d2d880727d"
+    },
+    {
+      "check": "Frozen file hash: evaluation/run.py",
+      "passed": true,
+      "actual": "a3efdafbf9118b3b3e2c0dbf79f12349c58bc67ffc0d4ed9960763f499d7c52c",
+      "expected": "a3efdafbf9118b3b3e2c0dbf79f12349c58bc67ffc0d4ed9960763f499d7c52c"
+    },
+    {
+      "check": "keyword: actual predictions count",
+      "passed": true,
+      "actual": 220,
+      "expected": 220
+    },
+    {
+      "check": "keyword: IDs align",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "keyword: no API calls",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "keyword: all runs after Gold freeze",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "keyword/regular: independently recounted TP",
+      "passed": true,
+      "actual": 20,
+      "expected": 20
+    },
+    {
+      "check": "keyword/regular: independently recounted FP",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "keyword/regular: independently recounted FN",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "keyword/regular: independently recounted TN",
+      "passed": true,
+      "actual": 180,
+      "expected": 180
+    },
+    {
+      "check": "keyword/regular: independently recounted safe_price_eligible_count",
+      "passed": true,
+      "actual": 180,
+      "expected": 180
+    },
+    {
+      "check": "keyword/regular: independently recounted safe_price_answered_count",
+      "passed": true,
+      "actual": 180,
+      "expected": 180
+    },
+    {
+      "check": "keyword/regular: independently recounted price_range_hit_count",
+      "passed": true,
+      "actual": 180,
+      "expected": 180
+    },
+    {
+      "check": "keyword/regular: independently recounted unsafe_price_release_count",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "keyword/hard: independently recounted TP",
+      "passed": true,
+      "actual": 13,
+      "expected": 13
+    },
+    {
+      "check": "keyword/hard: independently recounted FP",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "keyword/hard: independently recounted FN",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "keyword/hard: independently recounted TN",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "keyword/hard: independently recounted safe_price_eligible_count",
+      "passed": true,
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "check": "keyword/hard: independently recounted safe_price_answered_count",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "keyword/hard: independently recounted price_range_hit_count",
+      "passed": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "keyword/hard: independently recounted unsafe_price_release_count",
+      "passed": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "check": "keyword: missing independent set explicit",
+      "passed": true,
+      "actual": "not_supplied",
+      "expected": "not_supplied"
+    },
+    {
+      "check": "original_baseline: actual predictions count",
+      "passed": true,
+      "actual": 220,
+      "expected": 220
+    },
+    {
+      "check": "original_baseline: IDs align",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "original_baseline: no API calls",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "original_baseline: all runs after Gold freeze",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "original_baseline/regular: independently recounted TP",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "original_baseline/regular: independently recounted FP",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "original_baseline/regular: independently recounted FN",
+      "passed": true,
+      "actual": 20,
+      "expected": 20
+    },
+    {
+      "check": "original_baseline/regular: independently recounted TN",
+      "passed": true,
+      "actual": 180,
+      "expected": 180
+    },
+    {
+      "check": "original_baseline/regular: independently recounted safe_price_eligible_count",
+      "passed": true,
+      "actual": 180,
+      "expected": 180
+    },
+    {
+      "check": "original_baseline/regular: independently recounted safe_price_answered_count",
+      "passed": true,
+      "actual": 180,
+      "expected": 180
+    },
+    {
+      "check": "original_baseline/regular: independently recounted price_range_hit_count",
+      "passed": true,
+      "actual": 55,
+      "expected": 55
+    },
+    {
+      "check": "original_baseline/regular: independently recounted unsafe_price_release_count",
+      "passed": true,
+      "actual": 20,
+      "expected": 20
+    },
+    {
+      "check": "original_baseline/hard: independently recounted TP",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "original_baseline/hard: independently recounted FP",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "original_baseline/hard: independently recounted FN",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "original_baseline/hard: independently recounted TN",
+      "passed": true,
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "check": "original_baseline/hard: independently recounted safe_price_eligible_count",
+      "passed": true,
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "check": "original_baseline/hard: independently recounted safe_price_answered_count",
+      "passed": true,
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "check": "original_baseline/hard: independently recounted price_range_hit_count",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "original_baseline/hard: independently recounted unsafe_price_release_count",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "original_baseline: missing independent set explicit",
+      "passed": true,
+      "actual": "not_supplied",
+      "expected": "not_supplied"
+    },
+    {
+      "check": "Fresh-copy generator exits successfully",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "Regeneration identical: data/regular.jsonl",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "Regeneration identical: data/hard.jsonl",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "Regeneration identical: gold/regular_gold.jsonl",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "Regeneration identical: gold/hard_gold.jsonl",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "Compile all stage-3 source modules",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    }
+  ],
+  "actual_unit_test_result": {
+    "command": [
+      "/Users/haohao/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "test_methods": 84,
+    "exit_code": 0,
+    "reported_seconds": 0.704,
+    "evidence": "Actual unittest run captured in this chat before freeze and baseline evaluation; final footer copied to unittest_summary.txt.",
+    "mathematical_fixtures_are_not_benchmark_results": true
+  },
+  "case_counts": {
+    "regular": 200,
+    "hard": 20
+  },
+  "benchmark_version": "internal-v1",
+  "real_api_calls": 0,
+  "real_llm_evaluation_run": false,
+  "independent_holdout_status": "not_supplied_user_will_add_later",
+  "english_submission_readme": "README.md",
+  "personal_chinese_guide": "QUICKSTART_ZH.md"
+}

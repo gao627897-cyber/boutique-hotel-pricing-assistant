@@ -1,0 +1,6 @@
+Summary copied from the actual stage-3 unittest invocation (not a fabricated run).
+Command: python3 -m unittest discover -s tests -v
+
+Ran 84 tests in 0.704s
+
+OK

@@ -1,0 +1,13 @@
+Boutique Hotel Pricing Assistant
+Mode: non_ai_baseline | API calls: 0
+Status: recommendation
+Suggested price: SGD 195 / room / night
+Must human-review: False
+Activity label: high
+Reason: Python used 8/40 remaining rooms and the comparable-quote median.
+Reason: Python applied the documented inventory, stay-day and event policy, then checked both price bounds.
+Reason: Activity source: keyword_baseline. Keyword baseline matched high activity terms; it has not verified the event.
+Reason: Ordinary clear/cloudy/rain weather has no numerical demand adjustment in this illustrative policy.
+Python formula: 150.0 × (1 + 0.10 + 0.05 + 0.15) = 195.000 -> 195 (HALF_UP)
+Action: Consider this rate manually after checking source comparability; the system changes no hotel prices.
+Run ID: 33d45db8-a8d3-4798-ba0e-f4ad6e3feb91

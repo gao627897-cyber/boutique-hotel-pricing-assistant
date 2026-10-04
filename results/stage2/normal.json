@@ -1,0 +1,49 @@
+{
+  "status": "recommendation",
+  "suggested_price_sgd": 150,
+  "reasons": [
+    "Python used 12/40 remaining rooms and the comparable-quote median.",
+    "Python applied the documented inventory, stay-day and event policy, then checked both price bounds.",
+    "Activity source: keyword_baseline. Keyword baseline matched low activity terms; it has not verified the event.",
+    "Ordinary clear/cloudy/rain weather has no numerical demand adjustment in this illustrative policy."
+  ],
+  "suggested_action": "Consider this rate manually after checking source comparability; the system changes no hotel prices.",
+  "must_human_review": false,
+  "review_reasons": [],
+  "guardrail_codes": [],
+  "event_classification": {
+    "impact": "low",
+    "reason": "Keyword baseline matched low activity terms; it has not verified the event."
+  },
+  "calculation": {
+    "strategy": "hybrid",
+    "currency": "SGD",
+    "unit": "standard_room_per_night",
+    "competitor_median_sgd": "150",
+    "anchor_sgd": "150.0",
+    "scarcity_adjustment": "0",
+    "weekend_adjustment": "0",
+    "event_adjustment": "0",
+    "weather_adjustment": "0",
+    "candidate_sgd": "150.0",
+    "rounding": "nearest_SGD_1_HALF_UP"
+  },
+  "audit": {
+    "run_id": "b042daf1-d4df-4154-88cf-1b0917bfb478",
+    "started_at_utc": "2026-10-02T14:11:55.487749+00:00",
+    "software_version": "0.2.0",
+    "policy_version": "demo-40rooms-v0.2",
+    "config_sha256": "3b8601b18319c35e94acf5af8a28a6ee46f821e8ac6d4dec55173f117e5931d3",
+    "input_sha256": "fed365b50fab7a0d485924d425b7278609a0bb83200572679fdb85fcd0e1a820",
+    "classifier_name": "keyword_baseline",
+    "classifier_version": "keywords-0.2",
+    "system_mode": "non_ai_baseline",
+    "pricing_strategy": "hybrid",
+    "classifier_invoked": true,
+    "api_called": false,
+    "api_calls": 0,
+    "classification_metadata": {},
+    "source_type": "synthetic",
+    "elapsed_ms": 0.742
+  }
+}

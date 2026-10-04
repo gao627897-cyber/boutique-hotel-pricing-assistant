@@ -1,0 +1,217 @@
+{
+  "stage": 2,
+  "verification_completed_at_utc": "2026-10-02T14:11:55.727464+00:00",
+  "scope": "Engineering tests and actual local non-AI CLI smoke runs; not formal hotel/model evaluation.",
+  "python_version": "3.12.14",
+  "python_executable": "/Users/haohao/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "unittest_command": [
+    "/Users/haohao/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "unittest_exit_code": 0,
+  "unittest_methods_passed": 70,
+  "unittest_reported_seconds": 0.64,
+  "boundary_matrix_subcases": 216,
+  "compileall_exit_code": 0,
+  "python_3_10_syntax_files_checked": 10,
+  "python_3_10_runtime_tested": false,
+  "smoke_runs_passed": 7,
+  "smoke_runs": [
+    {
+      "name": "normal",
+      "command": [
+        "/Users/haohao/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "hotel_pricing",
+        "--input",
+        "examples/normal.json",
+        "--format",
+        "json"
+      ],
+      "exit_code": 0,
+      "status": "recommendation",
+      "suggested_price_sgd": 150,
+      "guardrail_codes": [],
+      "system_mode": "non_ai_baseline",
+      "classifier_invoked": true,
+      "api_calls": 0,
+      "artifact": "normal.json"
+    },
+    {
+      "name": "weekend_scarcity",
+      "command": [
+        "/Users/haohao/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "hotel_pricing",
+        "--input",
+        "examples/weekend_scarcity.json",
+        "--format",
+        "json"
+      ],
+      "exit_code": 0,
+      "status": "recommendation",
+      "suggested_price_sgd": 195,
+      "guardrail_codes": [],
+      "system_mode": "non_ai_baseline",
+      "classifier_invoked": true,
+      "api_calls": 0,
+      "artifact": "weekend_scarcity.json"
+    },
+    {
+      "name": "review_conflict",
+      "command": [
+        "/Users/haohao/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "hotel_pricing",
+        "--input",
+        "examples/review_conflict.json",
+        "--format",
+        "json"
+      ],
+      "exit_code": 0,
+      "status": "human_review",
+      "suggested_price_sgd": null,
+      "guardrail_codes": [
+        "SIGNAL_CONFLICT"
+      ],
+      "system_mode": "non_ai_baseline",
+      "classifier_invoked": false,
+      "api_calls": 0,
+      "artifact": "review_conflict.json"
+    },
+    {
+      "name": "review_missing_weather",
+      "command": [
+        "/Users/haohao/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "hotel_pricing",
+        "--input",
+        "examples/review_missing_weather.json",
+        "--format",
+        "json"
+      ],
+      "exit_code": 0,
+      "status": "human_review",
+      "suggested_price_sgd": null,
+      "guardrail_codes": [
+        "MISSING_FIELD"
+      ],
+      "system_mode": "non_ai_baseline",
+      "classifier_invoked": false,
+      "api_calls": 0,
+      "artifact": "review_missing_weather.json"
+    },
+    {
+      "name": "review_uncertain",
+      "command": [
+        "/Users/haohao/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "hotel_pricing",
+        "--input",
+        "examples/review_uncertain.json",
+        "--format",
+        "json"
+      ],
+      "exit_code": 0,
+      "status": "human_review",
+      "suggested_price_sgd": null,
+      "guardrail_codes": [
+        "EVENT_UNCERTAIN"
+      ],
+      "system_mode": "non_ai_baseline",
+      "classifier_invoked": true,
+      "api_calls": 0,
+      "artifact": "review_uncertain.json"
+    },
+    {
+      "name": "unavailable",
+      "command": [
+        "/Users/haohao/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "hotel_pricing",
+        "--input",
+        "examples/normal.json",
+        "--format",
+        "json",
+        "--classifier",
+        "unavailable"
+      ],
+      "exit_code": 0,
+      "status": "human_review",
+      "suggested_price_sgd": null,
+      "guardrail_codes": [
+        "CLASSIFIER_UNAVAILABLE"
+      ],
+      "system_mode": "unavailable",
+      "classifier_invoked": true,
+      "api_calls": 0,
+      "artifact": "unavailable.json"
+    },
+    {
+      "name": "original_baseline",
+      "command": [
+        "/Users/haohao/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "hotel_pricing",
+        "--input",
+        "examples/weekend_scarcity.json",
+        "--format",
+        "json",
+        "--strategy",
+        "original_baseline"
+      ],
+      "exit_code": 0,
+      "status": "recommendation",
+      "suggested_price_sgd": 165,
+      "guardrail_codes": [],
+      "system_mode": "original_non_ai_baseline",
+      "classifier_invoked": false,
+      "api_calls": 0,
+      "artifact": "original_baseline.json"
+    }
+  ],
+  "real_api_calls": 0,
+  "formal_evaluation_run": false,
+  "first_test_run_note": {
+    "actual_test_methods_run": 65,
+    "actual_failed_subtests": 1,
+    "cause": "Test expected a valid extreme finite JSON number to be a file parse error, but it correctly entered schema/data review instead.",
+    "resolution": "Corrected the parse fixture to an unrepresentable exponent and added an actual CLI data-review test for a representable extreme quote.",
+    "later_hardening": "Added unpaired-Unicode input/response checks to avoid hashing or stdout encoding failures, and rejected obvious price directives hidden in activity reasons."
+  },
+  "source_file_sha256": {
+    ".gitignore": "6a21a5685c156900632dbae26e3e37b78968f85d8a555cd7b757b35866b8a328",
+    "README.md": "a5bda01e30fa7d9d7022a52e500d1e354ff3ec207e260ba66dadddaf68bfbbf7",
+    "config/hotel.json": "0c122a9539ac01216beb4ba4b4959f60cb84682a98f71c50b96ec740a9a64b76",
+    "docs/POLICY.md": "cc0b3ec5cfab0e97a0e3c131970bc6ba00e973b185ea92b95931e0629e0085b1",
+    "docs/PRODUCT.md": "8779b6b399f67a2c71c9d29f5aca6b38ea8a24f4471ec4215053682eda89237c",
+    "docs/TESTING.md": "6985af2cc1da7a43fb0a54fe044ec1a4105bebc3cc7ce227b85554fb8bd64419",
+    "examples/normal.json": "1f4bb8c25e69a236a82b57eb0d7680216a7ab946e9d44fdb13956f4d2482d68b",
+    "examples/review_conflict.json": "a7a3d4e390e72861ff3a6b7af970d13599dd8dbbe29369e3eadaa4ba865578e2",
+    "examples/review_missing_weather.json": "b28851f1b3f65caa15c64ea5114afddebdd5fc4986118f59051c23299f3d796b",
+    "examples/review_uncertain.json": "a96260bc82ad9df6868bf3b828c9d92c19a0283163b7290bc877af27d373d1f7",
+    "examples/weekend_scarcity.json": "a28b75aa0df30f1177098781d091fbfb5b974cb66cc870a7511938ba52a0a191",
+    "hotel_pricing/__init__.py": "9ded47943da145d1b671cc493e24aa541d381485fe88a6191d11dadea2d4152d",
+    "hotel_pricing/__main__.py": "e684de6718f6692a71f6140b51bfb1e67f2492e910fc673a645a476dcb6ab760",
+    "hotel_pricing/classifiers.py": "a46be9d5f9513e2ec05be87aa7c2f1361f8b3be81c04cc37f82d2580028528cb",
+    "hotel_pricing/cli.py": "959f0e38581995f2104f9d8f04827200187fed63029c159bb8e0dc057bf5be43",
+    "hotel_pricing/domain.py": "235f24a13a96ddd7f58930e0082725fc5346d2c64010ba922a4678ad3e125bbb",
+    "hotel_pricing/pricing.py": "778720478931593c8391233ecb17b18c43a9e7c9184c39349c2cac1befe2afdb",
+    "hotel_pricing/service.py": "491205b5774c251b386b8356d121751e251c5a01428ffde43475b3ecbc93d33e",
+    "hotel_pricing/validation.py": "07354275e2fe20d3b4aaf39e672d8f1acd06e5cfa244a1901d2fe64cdf4286ef",
+    "requirements.txt": "a8a2c6a3fe05fcc13f9704329f815c9d7f2b898288bf6a0f8f6bfe8416102967",
+    "tests/test_cli.py": "12add33b7d2e8f7491d745f781415e13834e95868dd04fef7ef49ed79b210c40",
+    "tests/test_core.py": "d612600859ad7824941099c30723250211c58a5a37cc0658f17af6d030d2f960"
+  },
+  "remaining_work": [
+    "Stage 3 formal regular/hard/Gold datasets, independent holdout and evaluator",
+    "Stage 4 real LLM integration/evaluation and report/demo evidence",
+    "Rewritten Problem Statement",
+    "GitHub and course submission"
+  ]
+}
